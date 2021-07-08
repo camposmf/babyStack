@@ -1,4 +1,4 @@
-### babyStack - Projeto com a Stack MERN para fins de estudos\
+# babyStack - Projeto com a Stack MERN para fins de estudos
 
 # MERN 
 É uma sigla que engloba diferentes tecnologias que compõe o Back-end de uma aplicação web.
