@@ -20,14 +20,16 @@ mongodb.connect("mongodb+srv://devmonk:1234@cluster0.gl7vt.mongodb.net/myFirstDa
 
 // configurar rotas
 server.get('/livros', async (req, res) => {
+        
   // conectar com a tabela do banco de dados
-  let db = mongoConnection.db('livros').collection('livros');
+  let db = mongoConnection.db('livraria').collection('livros');
 
   // Selecionar todos os valores da tabela livros
   let books = await db.find().toArray();
 
   // mostrar os valores
   res.send(books);
+        
 });
 
 // escutar servidor
